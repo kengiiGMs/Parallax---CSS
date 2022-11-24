@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--primaryColor: red;
+	--secondColor: blue;
+	--backgroundColor: lemonchiffon;
+}
+
+h2 {
+	color: brown;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+body,
+html {
+	font: 11px "Helvetica", sans-serif;
+	color: var(--primaryColor);
+	height: 100%;
+}
+/* conteudo */
+.conteudo {
+	color: black;
+	text-align: justify;
+	background-color: var(--backgroundColor);
+	padding: 3% 14%;
+}
+.tituloCaracteresConteudo {
+	text-align: center;
+	color: brown;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.textoConteudo {
+	text-align: center;
+	font-size: 15px;
+	margin: 10px;
+}
+/* conteudo */
+
+hr {
+	margin-top: 20px;
+	border: 1px solid brown;
+}
+
+/* Dados */
+.dados {
+	width: 50%;
+	display: inline-block;
+}
+
+.dadosImg {
+	width: 45%;
+	float: right;
+	position: relative;
+
+	top: 110px;
+}
+
+.TituloDados {
+	color: brown;
+	padding: 6px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.caracteresTituloDados {
+	text-align: center;
+	color: brown;
+	font-size: 20px;
+}
+/* Dados */
+
+/* Effect Parallax */
+.caixa1,
+.caixa2,
+.caixa3,
+.caixa4 {
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.caixa1 {
+	background-image: url(../imgs/TTT.png);
+}
+
+.caixa2 {
+	background-image: url(../imgs/T1.png);
+	clear: both;
+}
+.caixa3 {
+	background-image: url(../imgs/T3.jpg);
+}
+.caixa4 {
+	background-image: url(../imgs/T2.jpg);
+}
+
+.tituloCaixa {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.tituloCaixa span p {
+	color: black;
+	background-color: var(--backgroundColor);
+	padding: 3%;
+	font-size: 25px;
+	letter-spacing: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+
+li {
+	margin-left: 22px;
+	font-size: 15px;
+}
+/* Effect Parallax */
